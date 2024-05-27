@@ -1,4 +1,4 @@
-package com.adnan.lafyuu
+package com.projectui.app
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -7,8 +7,8 @@ import androidx.recyclerview.widget.RecyclerView
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Button
-import com.adnan.lafyuu.adapter.RelatedProductsAdapter
-import com.adnan.lafyuu.data.ItemData
+import com.projectui.app.adapter.RelatedProductsAdapter
+import com.projectui.app.data.ItemData
 
 class ProductDetailActivity : AppCompatActivity() {
 

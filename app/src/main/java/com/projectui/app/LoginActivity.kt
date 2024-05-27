@@ -1,4 +1,4 @@
-package com.adnan.lafyuu
+package com.projectui.app
 
 import android.content.Intent
 import android.os.Bundle
@@ -65,6 +65,6 @@ class LoginActivity : AppCompatActivity() {
     private fun validateCredentials(email: String, password: String): Boolean {
         // This is a placeholder for actual validation logic
         // For example, checking against a database or remote server
-        return email == "test@example.com" && password == "password123"
+        return email == "admin@example.com" && password == "password123"
     }
 }

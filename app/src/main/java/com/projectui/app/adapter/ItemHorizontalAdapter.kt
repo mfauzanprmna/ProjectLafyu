@@ -1,19 +1,16 @@
-package com.adnan.lafyuu.adapter
+package com.projectui.app.adapter
 
-import android.content.Context
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.adnan.lafyuu.ProductDetailActivity
-import com.adnan.lafyuu.R
-import com.adnan.lafyuu.data.ItemData
+import com.projectui.app.R
+import com.projectui.app.data.ItemData
 
-class HomeAdapter(private val context: Context, private val itemList: List<ItemData>) :
-    RecyclerView.Adapter<HomeAdapter.ViewHolder>() {
+class HorizontalAdapter(private val itemList: List<ItemData>) :
+    RecyclerView.Adapter<HorizontalAdapter.ViewHolder>() {
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val productImage: ImageView = view.findViewById(R.id.ProductImage)
@@ -32,14 +29,6 @@ class HomeAdapter(private val context: Context, private val itemList: List<ItemD
         holder.productImage.setImageResource(item.imageId)
         holder.productName.text = item.name
         holder.productPrice.text = item.price
-
-        holder.itemView.setOnClickListener {
-            val intent = Intent(context, ProductDetailActivity::class.java)
-            intent.putExtra("product_name", item.name)
-            intent.putExtra("product_price", item.price)
-            intent.putExtra("product_image", item.imageId)
-            context.startActivity(intent)
-        }
     }
 
     override fun getItemCount() = itemList.size

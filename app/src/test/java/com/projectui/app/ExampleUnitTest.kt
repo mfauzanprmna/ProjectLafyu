@@ -1,4 +1,4 @@
-package com.adnan.lafyuu
+package com.projectui.app
 
 import org.junit.Test
 

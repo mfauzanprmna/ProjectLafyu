@@ -1,4 +1,4 @@
-package com.adnan.lafyuu
+package com.projectui.app
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,12 +9,12 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.ViewPager2
-import com.adnan.lafyuu.adapter.CarouselAdapter
-import com.adnan.lafyuu.adapter.CategoryAdapter
-import com.adnan.lafyuu.adapter.GridAdapter
-import com.adnan.lafyuu.adapter.HorizontalAdapter
-import com.adnan.lafyuu.data.CategoryData
-import com.adnan.lafyuu.data.ItemData
+import com.projectui.app.adapter.CarouselAdapter
+import com.projectui.app.adapter.CategoryAdapter
+import com.projectui.app.adapter.GridAdapter
+import com.projectui.app.adapter.HorizontalAdapter
+import com.projectui.app.data.CategoryData
+import com.projectui.app.data.ItemData
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class HomeActivity : AppCompatActivity() {

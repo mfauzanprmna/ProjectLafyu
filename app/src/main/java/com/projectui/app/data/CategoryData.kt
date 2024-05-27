@@ -1,4 +1,4 @@
-package com.adnan.lafyuu.data
+package com.projectui.app.data
 
 data class CategoryData(
     val name: String,

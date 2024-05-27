@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.adnan.lafyuu"
+    namespace = "com.projectui.app"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.adnan.lafyuu"
+        applicationId = "com.projectui.app"
         minSdk = 29
         targetSdk = 34
         versionCode = 1

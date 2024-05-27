@@ -1,4 +1,4 @@
-package com.adnan.lafyuu
+package com.projectui.app
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,8 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import android.widget.ImageView
-import com.adnan.lafyuu.adapter.FavoriteAdapter
-import com.adnan.lafyuu.data.ItemData
+import com.projectui.app.adapter.FavoriteAdapter
+import com.projectui.app.data.ItemData
 
 class FavoriteActivity : AppCompatActivity() {
 

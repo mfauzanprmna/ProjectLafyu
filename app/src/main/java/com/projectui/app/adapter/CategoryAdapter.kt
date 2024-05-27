@@ -1,4 +1,4 @@
-package com.adnan.lafyuu.adapter
+package com.projectui.app.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,8 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.adnan.lafyuu.R
-import com.adnan.lafyuu.data.CategoryData
+import com.projectui.app.R
+import com.projectui.app.data.CategoryData
 
 class CategoryAdapter(private val categoryList: List<CategoryData>) :
     RecyclerView.Adapter<CategoryAdapter.ViewHolder>() {

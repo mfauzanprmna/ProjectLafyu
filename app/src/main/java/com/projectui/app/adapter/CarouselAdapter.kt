@@ -1,4 +1,4 @@
-package com.adnan.lafyuu.adapter
+package com.projectui.app.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -7,7 +7,7 @@ import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.adnan.lafyuu.R
+import com.projectui.app.R
 
 class CarouselAdapter(private val itemList: List<Int>) :
     RecyclerView.Adapter<CarouselAdapter.ViewHolder>() {

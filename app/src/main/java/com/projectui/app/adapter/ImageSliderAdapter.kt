@@ -1,11 +1,11 @@
-package com.adnan.lafyuu.adapter
+package com.projectui.app.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
-import com.adnan.lafyuu.R
+import com.projectui.app.R
 
 class ImageSliderAdapter(private val imageList: List<Int>) :
     RecyclerView.Adapter<ImageSliderAdapter.ViewHolder>() {

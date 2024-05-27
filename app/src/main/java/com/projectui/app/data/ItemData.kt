@@ -1,4 +1,4 @@
-package com.adnan.lafyuu.data
+package com.projectui.app.data
 
 data class ItemData(
     var name: String,
